@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" conten="width=device-width">
+	<link rel="stylesheet" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<title>BNO Cursos</title>
+</head>
+
+
+<body>
+	<header class="topo">
+		<h1 class="logo">
+			<i class="fas fa-globe"> BnoCursos</i>
+		</h1>
+		<button class="btn-menu"><i class="fas fa-bars"></i></button>
+
+		<nav class="menu">
+			<a class="btn-close">X</a>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Serviços</a></li>
+				<li><a href="#">Quem Somos</a></li>
+				<li><a href="#">Local</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<article id="sobre">
+			<div class="container">
+			    <h2>Cursos Front-End</h2>
+			    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper facilisis commodo. Quisque eleifend elit odio, rutrum vulputate risus  eleifend sodales.</p>
+		    </div>
+		</article>
+
+		<article id="sobre-cursos">
+			<div class="container">
+			   <div class="cursojava">
+				   <img src="./images/logo_java.png">
+				   <h3>JavaScript</h3>
+				   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper facilisis commodo. Quisque eleifend elit odio, rutrum vulputate risus eleifend sodales. Sed facilisis ac elit ac congue. Duis suscipit sed augue non consequat. Integer placerat eget sapien eget aliquam. In porta commodo metus, non faucibus arcu suscipit non.</p>
+			</div>
+			   <div class="cursohtml">
+				   <img src="./images/logo_html.png">
+				   <h3>HTML</h3>
+				   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper facilisis commodo. Quisque eleifend elit odio, rutrum vulputate risus eleifend sodales. Sed facilisis ac elit ac congue. Duis suscipit sed augue non consequat. Integer placerat eget sapien eget aliquam. In porta commodo metus, non faucibus arcu suscipit non.</p>
+			   </div>
+			   <div class="cursocss">
+				   <img src="./images/logo_css.png">
+				   <h3>CSS</h3>
+				   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper facilisis commodo. Quisque eleifend elit odio, rutrum vulputate risus eleifend sodales. Sed facilisis ac elit ac congue. Duis suscipit sed augue non consequat. Integer placerat eget sapien eget aliquam. In porta commodo metus, non faucibus arcu suscipit non.</p>
+			   </div>
+		    </div>
+		</article>
+	</main>
+
+	       <section id="newsletter">
+		     <div class="container">
+			   <h2>Receba Promoçoes</h2>
+			    <form>
+				<input type="email" name="email" placeholder="Seu Email...">
+				<button type="submite" class="button1">Enviar</button>
+		  	   </form>
+		       </div>
+	       </section>
+
+     <div class="container">
+	       <footer class="rodape">
+		      <p>@BRUNOASCENC - All Rights Reserved 2018</p>
+	       </footer>
+	</div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+	$(".btn-menu").click(function(){
+		$(".menu").show();
+	});
+	$(".btn-close").click(function(){
+		$(".menu").hide();
+	});
+</script>
+</html>

@@ -1,0 +1,385 @@
+/* Reset */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline-style: none;
+	font-size: 100%;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 300;
+}
+
+
+/* Global */
+body{
+	background-color: #f5f5f5;
+}
+img{
+	max-width: 100%;
+}
+
+.topo{
+	width:100%;
+}
+
+.container{
+	width: 100%;
+	overflow: hidden;
+	margin: auto;
+}
+
+ul{
+	list-style-type: none;
+}
+
+
+/* Header */
+.topo{
+	width: 100%;
+	float:left;
+	padding: 4% 3%;
+}
+
+
+.logo{
+	margin-left: 4px;
+	text-transform: uppercase;
+	font-size: 1.6em;
+	margin-top: px;
+}
+
+
+.btn-menu{
+	border:none;
+	float: right;
+	margin-right: 4px;
+	background-color: #266fe8;
+	width: 56px;
+	height: 56px;
+	text-align: center;
+	color:;
+	border-radius: 56px;
+	cursor: pointer;
+	position: relative; top: -38px;
+}
+
+
+/* Menu */
+.menu{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0,0.6); top:0; left: 0;
+	display: none;
+}
+
+
+.btn-close{
+	float: right;
+	font-size: 2.0em;
+	cursor: pointer;
+	color: #fff;
+	margin-right: 5%;
+
+}
+
+
+.menu li{
+	color: #fff;
+	padding: 5%;
+}
+
+
+.menu ul{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2.0em;
+    color: #fff;
+}
+
+
+/* Banner */
+#sobre{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 3% 4%;
+	background: url(../images/banner.jpg) no-repeat fixed;
+	background-size: cover;
+}
+
+
+#sobre h2{
+	font-size: 2.5em;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+
+#sobre p{
+	font-size: 1.0em;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+/* About */
+#sobre-cursos{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 3% 4%;
+}
+
+
+#sobre-cursos p {
+	text-align: left;
+	padding: 7%;	
+}
+
+
+#sobre-cursos h3{
+	font-size: 1.3em;
+	margin-top: 4px;
+}
+
+
+#sobre-cursos img{
+	width: 180px;
+	height: 150px;
+}
+
+
+.cursojava img{
+	margin-top: 2px;
+	border-radius: 6px;
+}
+
+
+.cursojava{
+	width: 100%;
+	background-color: #fff;
+	border-radius: 6px;
+}
+
+
+.cursohtml{
+	width: 100%;
+	background-color: #fff;
+	border-radius: 6px;
+	margin-top: 6px;
+}
+
+
+.cursocss{
+	width: 100%;
+	background-color: #fff;
+	border-radius: 6px;
+	margin-top: 6px;
+}
+
+
+/* Newsletter */
+
+#newsletter{
+	width: 100%;
+	float: left;
+	padding: 3% 4%;
+	background-color:#266fe8;
+}
+
+
+#newsletter h2{
+	color: #fff;
+	font-size: 1.8em;	
+
+}
+
+
+#newsletter input[type="email"]{
+	padding: 3% 4%;
+	border-radius: 6px;
+	border: solid 1px; color: #fff;
+	background-color: initial;	
+}
+
+
+.button1{
+	padding: 3% 4%;
+	border-radius: 6px;
+	border: solid 1px; color: #fff;
+	background-color: initial;
+	color: #fff;
+	cursor: pointer;
+}
+
+input[name="email"]::-webkit-input-placeholder{
+  color: #fff;
+}
+input[name="email"]::-moz-placeholder{
+  color: #fff;
+}
+input[name="email"]::-ms-input-placeholder{
+  color: #fff;
+}
+
+/* Footer */
+.rodape{
+	width: 100%;
+	font-size: 0.6em;
+	padding: 1% 4%;
+	float: left;
+	text-align: center;
+	background-color: black;
+	color: #fff;
+}
+
+
+/* Small Devices - smartphones */
+@media screen and (min-width: 375px){
+#newsletter h2{
+	color: #fff;
+	font-size: 1.8em;
+	margin-left: 6%;
+	
+}
+
+#newsletter input[type="email"]{
+	padding: 3% 4%;
+	border-radius: 6px;
+	border: solid 1px; color: #fff;
+	background-color: initial;
+	margin-left: 6%;
+}
+
+#sobre h2{
+	font-size: 2.8em;	
+}
+
+
+/* Medium Devices - Tablets */
+@media screen and (min-width: 1024px){
+.cursojava{
+	width: 30%;
+	float: left;
+}
+
+.cursohtml{
+	width: 30%;
+	float: right;
+}
+
+.cursocss{
+	width: 30%;
+	margin-left: 5%;
+	float: left;	
+}
+
+
+#newsletter h2{
+	font-size: 2.5em;
+	margin-left: 32%;
+}
+
+#newsletter input[type="email"]{
+	padding: 2% 4%;
+	width: 65%;
+	float: none;
+}
+
+.button1{
+	padding: 2% 4%;
+	width: 20%;
+	float: none;
+}
+
+
+}
+
+/* Large Devices - Laptops / Desktops */
+@media screen and (min-width: 1280px){
+.btn-menu{
+	display: none;
+}
+
+.btn-close{
+	display: none;
+}
+
+.menu{
+	float: right;
+	background-color: #f5f5f5;
+	position: static;
+	width: auto;
+	display: block;
+	padding: 0%;
+	height: 45px;
+}
+
+.menu li{
+	float: left;
+	padding: 0;
+}
+
+.menu li a{
+	color: black;
+	font-size: 1.5em;
+	padding: 12px;
+	color: black;
+	letter-spacing: 2px;
+}
+
+.menu li a:hover{
+	transition: all 0.6s ease;
+	color: #266fe8;
+}	
+
+#newsletter{
+	padding: 2%;
+}
+
+#newsletter h2{
+	margin-left: 36%;
+}
+
+#newsletter input[type="email"]{
+	padding: 1.5%;
+	width: 35%;
+	float: none;
+	margin-left: 22%;
+}
+
+.button1{
+	padding: 1.5%;
+	width: 15%;
+	float: none;
+}
+
+#sobre-cursos p {
+	text-align: justify;
+	padding: 12%;	
+}
+
+.cursojava{
+	padding: 2% 4%;
+}
+
+.cursohtml{
+	padding: 2% 4%;
+}
+
+.cursocss{
+	padding: 2% 4%;	
+}
+
+}
+
+
